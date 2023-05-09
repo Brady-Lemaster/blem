@@ -13,4 +13,5 @@ class importModule:
     exec (codeobj, module.__dict__)
     return module
 dieRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dieRoll.py')
+dieSampler = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dieSampler.py')
 
