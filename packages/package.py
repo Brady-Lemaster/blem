@@ -11,4 +11,4 @@ class importModule:
     module = types.ModuleType(name)
     exec (codeobj, module.__dict__)
     return module
-diceUtil = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/package/dicePkg.py')
+diceUtil = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/packages/dicePkg.py')
