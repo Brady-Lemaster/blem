@@ -2,7 +2,7 @@ import os
 import requests
 import types
 name = None
-uri = 'https://raw.githubusercontent.com/Brady-Lemaster/blem/main/package/package.py'
+uri = 'https://raw.githubusercontent.com/Brady-Lemaster/blem/main/packages/package.py'
 types.ModuleType('name')
 if not name:
   name = os.path.basename(uri).lower().rstrip('.py')
