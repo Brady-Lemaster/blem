@@ -5,5 +5,5 @@
 # commands
 1. blem.dieRoll.x()
 2. blem.importModule.x()
-3. blem.twentySideSample.x()
+3. blem.twentySideData.x()
 4. blem.dieSampler.x()
