@@ -10,9 +10,9 @@ def rollHandler(dice):
     outputList.append(random.randint(1,int(inputList[1])))
   return outputList
 def x(dice, file):
-  rolledDiceX = rollHandler(dice)
-  rolledDiceY = rollHandler(dice)
-  numpyDiceX = np.array(rolledDiceX)
-  numpyDiceY = np.array(rolledDiceY)
-  plt.bar(numpyDiceX, numpyDiceY)
+  rolledDiceX = blem.dieRoll.x(dice)
+  resultX = np.array(rolledDiceX)
+  resultY = random.randint(1,int(dice.split("d")[0]))
+  plt.bar(resultX, resultY)
   plt.savefig(file)
+  
