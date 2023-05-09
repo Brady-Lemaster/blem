@@ -1,7 +1,6 @@
 import os
 import requests
 import types
-types.ModuleType('name')
 class importModule:
   def x(uri, name=None):
     if not name:
