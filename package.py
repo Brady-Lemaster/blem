@@ -11,5 +11,5 @@ class importModule:
     module = imp.new_module(name)
     exec (codeobj, module.__dict__)
     return module
-importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/brady-Lemaster.github.io/main/py/miniroll.py')
+dieRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dieRoll.py')
 
