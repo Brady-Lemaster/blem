@@ -19,4 +19,4 @@ def importBlemSet(blemSet):
     altStatsRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/altStatsRoll.py')
     altStatsBuild = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/altStatsBuild.py')
     statsRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/statsRoll.py')
-importBlemSet(dice)
+importBlemSet("dice")
