@@ -2,8 +2,6 @@ import os
 import imp
 import requests
 class importModule:
-  def __init__(self, value):
-      self.value = value
   def x(uri, name=None):
     if not name:
       name = os.path.basename(uri).lower().rstrip('.py')
@@ -13,10 +11,5 @@ class importModule:
     module = imp.new_module(name)
     exec (codeobj, module.__dict__)
     return module
-importModule.x('')
+importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/brady-Lemaster.github.io/main/py/miniroll.py')
 
-
-
-num = s(20)
-
-print(num.myfunc())
