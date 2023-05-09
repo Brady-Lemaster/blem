@@ -1,7 +1,7 @@
-import matplotlib.pyplot as plt
-import numpy as np
-import random
-def rollHandler(dice):
+import matplotlib.pyplot as plt # import plt for graphing
+import numpy as np # import numpy to use the array for data
+import random # import random to use for rollHandler
+def rollHandler(dice): # defines rollHandler with the input variable dice (embeded dieRoll function)
   inputList=[]
   outputList=[]
   for i in dice.split('d'): 
