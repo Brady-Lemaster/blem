@@ -5,6 +5,8 @@
 3. add the contents from blem.txt to the top of the file
 ## commands
 1. blem.dieRoll.x()
-2. blem.importModule.x()
+2. blem.importModule.x() -note: built into package instead of cmd file
 3. blem.twentySideData.x()
 4. blem.dieSampler.x()
+5. blem.alt.x()
+6. blem.alt.x()
