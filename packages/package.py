@@ -1,7 +1,7 @@
 import os
 import requests
 import types
-class default.importModule:
+class importModule:
   def x(uri, name=None):
     if not name:
       name = os.path.basename(uri).lower().rstrip('.py')
