@@ -11,4 +11,12 @@ class importModule:
     module = types.ModuleType(name)
     exec (codeobj, module.__dict__)
     return module
-diceUtil = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/packages/dicePkg.py')
+def importBlemSet(blemSet):
+  if blemSet == "dice":
+    dieRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dieRoll.py')
+    dieSampler = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dieSampler.py')
+    twentySideSample = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/twentySideData.py')
+    altStatsRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/altStatsRoll.py')
+    altStatsBuild = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/altStatsBuild.py')
+    statsRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/statsRoll.py')
+importBlemSet(dice)
