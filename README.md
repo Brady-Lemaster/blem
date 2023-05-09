@@ -8,5 +8,5 @@
 2. blem.importModule.x() -note: built into package instead of cmd file
 3. blem.twentySideData.x()
 4. blem.dieSampler.x()
-5. blem.alt.x()
-6. blem.alt.x()
+5. blem.altStatsRoll.x()
+6. blem.altStatsBuilt.x()
