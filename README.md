@@ -15,7 +15,7 @@
 8. add the contents from blem.txt to the top of the importing file
 ## commands
 1. blem.dieRoll.x()
-2. blem.importModule.x()
+2. blem.importModule.x() --default, built into package.py, cannot be removed
 3. blem.twentySideData.x()
 4. blem.dieSampler.x()
 5. blem.altStatsRoll.x()
