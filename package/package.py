@@ -11,20 +11,12 @@ class importModule:
     module = types.ModuleType(name)
     exec (codeobj, module.__dict__)
     return module
-def importBlemSet(blemSet):
-  if blemSet == "dice":
     dieRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dieRoll.py')
     dieSampler = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dieSampler.py')
     twentySideSample = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/twentySideData.py')
-  if blemSet == "dnd":
     altStatsRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/altStatsRoll.py')
     altStatsBuild = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/altStatsBuild.py')
     statsRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/statsRoll.py')
-  if blemSet == "game":
     rockPaperScissors = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/rockPaperScissors.py')
-importBlemSet("dice")
-importBlemSet("dnd")
-importBlemSet("game")
-importBlemSet("gpt")
 
 
