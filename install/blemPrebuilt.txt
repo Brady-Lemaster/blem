@@ -1,2 +1,2 @@
-import blemPrebuilt as blem_init_
+import blem as blem_init_
 blem = blem_init_.module
