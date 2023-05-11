@@ -1,11 +1,10 @@
 # BLEM: A dynamic module!
-## setup dynamic full
+## setup prebuilt
 1. go to install.py in the install directory
 2. download blem.py from the install directory
 3. add the blem.py to the same directory as the file that will import it
 4. add the contents from blem.txt to the top of the importing file
-## setup static
-## setup dynamic custom
+## setup custom
 1. fork repository
 2. go to package.py in the install directory
 3. comment out the packages to them ignore (importBlemSet() ex: importBlemSet("dice"))
