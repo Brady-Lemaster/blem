@@ -12,7 +12,7 @@ class importModule:
     exec (codeobj, module.__dict__)
     return module
 def importBlemSet(blemSet):
-  if blemSet == "dice/d&d":
+  if blemSet == "dice":
     dieRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dieRoll.py')
     dieSampler = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dieSampler.py')
     twentySideSample = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/twentySideData.py')
