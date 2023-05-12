@@ -1,5 +1,5 @@
 # BLEM: A dynamic module!
-## setup prebuilt
+## setup
 1. download the required packages (i think openai and matplotlib)
 2. go to install.py in the install directory
 3. download blem.py from the install directory
