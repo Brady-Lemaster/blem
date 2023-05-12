@@ -19,5 +19,6 @@ altStatsBuild = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster
 statsRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/statsRoll.py')
 rockPaperScissors = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/rockPaperScissors.py')
 chatbot = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatbot.py')
+imageGenerator = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/imageGenerator.py')
 
 
