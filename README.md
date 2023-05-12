@@ -5,14 +5,14 @@
 3. download blem.py from the install directory
 4. add the blem.py to the same directory as the file that will import it
 5. add the contents from blem.txt to the top of the importing file
-## commands
-dieRoll
-dieSampler 
-twentySideSample 
-altStatsRoll
-altStatsBuild 
-statsRoll 
-rockPaperScissors 
-chatbot 
-imageGenerator
-importModule
+## functions
+- dieRoll
+- dieSampler 
+- twentySideSample 
+- altStatsRoll
+- altStatsBuild 
+- statsRoll 
+- rockPaperScissors 
+- chatbot 
+- imageGenerator
+- importModule
