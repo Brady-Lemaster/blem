@@ -1,6 +1,6 @@
 # BLEM: A dynamic module!
 ## setup
-1. download the required packages (i think openai and matplotlib)
+1. download the required packages (poetry.py for poetry install)
 2. go to install.py in the install directory
 3. download blem.py from the install directory
 4. add the blem.py to the same directory as the file that will import it
