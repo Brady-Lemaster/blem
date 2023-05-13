@@ -1,1 +1,1 @@
-x = ["text-davinci-003", 0.1, 100, "placeholderKey"]
+x = ["text-davinci-003", 0.1, 10, "placeholderKey"]
