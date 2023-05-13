@@ -19,6 +19,11 @@ altStatsBuild = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster
 statsRoll = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/statsRoll.py')
 rockPaperScissors = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/rockPaperScissors.py')
 chatbot = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatbot.py')
-imageGenerator = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/imageGenerator.py')
-
+imageGen = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/imageGen.py')
+chatbot2 = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatbot2.py')
+imageGen2 = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/imageGen2.py')
+imageProfile = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/imageProfile.py')
+imageManager = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/imageManager.py')
+chatProfile = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatProfile.py')
+chatManager = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatManager.py')
 
