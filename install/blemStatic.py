@@ -83,3 +83,9 @@ class dieSampler:
     resultY = random.randint(1,int(dice.split("d")[0])) 
     plt.bar(resultX, resultY) 
     plt.savefig(file)
+class imageGen:
+  def x(image, key):
+    openai.api_key = key
+    response = openai.Image.create(prompt=image, n=1, size="256x256")
+    image = response['data'][0]['url']
+    return image
