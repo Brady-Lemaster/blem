@@ -17,4 +17,5 @@
 ## extra
 1. check the cmd folder for the functions (add blem. to the start and replace the .py with a .x)
 2. there is an extra cmd built into the package file used in the dynamic module code itself
-3. some functions have every line of code accompanied by a comment explaining every step
+3. some functions have every line of code accompanied by a comment explaining every step (go to cmd directory)
+4. static does NOT have comments, only the dynamic cmd folder has them
