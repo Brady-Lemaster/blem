@@ -3,6 +3,8 @@ import requests
 import types
 import random 
 import openai
+import matplotlib.pyplot as plt
+import numpy as np
 class dieRoll:
   def x(dice):  inputList=[] 
     outputList=[] 
@@ -74,3 +76,10 @@ class chatbot2:
     response = openai.Completion.create(model=profile[0], prompt=prompt, temperature=profile[1], max_tokens=profile[2])
     responseTrimmed = response["choices"][0]["text"].strip()
     return responseTrimmed
+class dieSampler:
+  def x(dice, file):
+    rolledDiceX = rollHandler(dice)
+    resultX = np.array(rolledDiceX)
+    resultY = random.randint(1,int(dice.split("d")[0])) 
+    plt.bar(resultX, resultY) 
+    plt.savefig(file)
