@@ -1,5 +1,4 @@
 # BLEM: A dynamic module!
-# static coming soon
 ## setup (dynamic)
 1. download the required packages (poetry.sh in the install directory for poetry install)
 2. go to install.py in the install directory
