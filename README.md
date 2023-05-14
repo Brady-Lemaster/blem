@@ -2,10 +2,13 @@
 ## setup (dynamic)
 1. download the required packages (poetry.sh in the install directory for poetry install)
 2. go to install.py in the install directory
-3. download blem.py from the install directory
-4. add the blem.py to the same directory as the file that will import it
+3. download blemDynamic.py from the install directory
+4. add the blemDynamic.py to the same directory as the file that will import it
 5. add the contents from blem.txt to the top of the importing file
 ## setup (static)
+1. download the required packages (poetry.sh in the install directory for poetry install)
+2. download blem.py from the install directory
+3. add "import blem" to the top of the importing file
 ## dynamic advantages
 1. automatic updates
 2. extremely low size on disk (just from the import and the small file
