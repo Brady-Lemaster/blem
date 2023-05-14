@@ -108,3 +108,5 @@ class imageManager:
     else:
       print("ERROR: ELEMENT NOT FOUND")
     return(profile)
+class imageProfile:
+  x = ["256x256", 1, "placeholderKey"]
