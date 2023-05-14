@@ -44,4 +44,19 @@ class altStatsRoll:
     rolledDice.append(dice.count(5))
     rolledDice.append(dice.count(6))
     return rolledDice
-
+class chatManager:
+  def x(profile, element, content): 
+    if profile == None: 
+      profile = ["ada", 1, 1000, "placeholderKey"]
+    if element == "model":
+      profile[0] = content 
+    elif element == "random": 
+      profile[1] = content 
+    elif element == "limit":
+      profile[2] = content
+    elif element == "key": 
+      profile[3] = content 
+    else:
+      print("ERROR: ELEMENT NOT FOUND")
+    return(profile)
+ 
