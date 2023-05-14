@@ -63,7 +63,8 @@ class chatManager:
       print("ERROR: ELEMENT NOT FOUND")
     return(profile)
 class chatProfile:
-  x = ["text-davinci-003", 0, 10, "placeholderKey"]
+  def x():
+    return ["text-davinci-003", 0, 10, "placeholderKey"]
 class chatbot:
   def x(prompt, limit, key):
     openai.api_key = key
@@ -109,4 +110,5 @@ class imageManager:
       print("ERROR: ELEMENT NOT FOUND")
     return(profile)
 class imageProfile:
-  x = ["256x256", 1, "placeholderKey"]
+  def x():
+    return ["256x256", 1, "placeholderKey"]
