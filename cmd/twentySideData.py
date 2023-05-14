@@ -7,27 +7,9 @@ def rollHandler(dice): # defines rollHandler with the input variable dice (embed
   for i in range(int(inputList[0])): # loops for the amount of dice
     outputList.append(random.randint(1,int(inputList[1]))) # appends the dice rolls to the output list
   return outputList # exports the output list to the main function
-def x(number):
-  dice = rollHandler(number+"d20")
-  diceAmount = []
-  diceAmount.append(dice.count(1))
-  diceAmount.append(dice.count(2))
-  diceAmount.append(dice.count(3))
-  diceAmount.append(dice.count(4))
-  diceAmount.append(dice.count(5))
-  diceAmount.append(dice.count(6))
-  diceAmount.append(dice.count(7))
-  diceAmount.append(dice.count(8))
-  diceAmount.append(dice.count(9))
-  diceAmount.append(dice.count(10))
-  diceAmount.append(dice.count(11))
-  diceAmount.append(dice.count(12))
-  diceAmount.append(dice.count(13))
-  diceAmount.append(dice.count(14))
-  diceAmount.append(dice.count(15))
-  diceAmount.append(dice.count(16))
-  diceAmount.append(dice.count(17))
-  diceAmount.append(dice.count(18))
-  diceAmount.append(dice.count(19))
-  diceAmount.append(dice.count(20))
-  return(diceAmount)
+def x(number): # defines the function with a parameter for the amount of twenty sided dice
+  dice = rollHandler(number+"d20") # rolls the amount of twenty sided dice and adds them to a list
+  diceAmount = [] # creates an empty list for appending
+  for i in range(20): # loop 20 times
+    diceAmount.append(dice.count(i+1)) # appends to the empty list the amount of a certain roll based on the range() function
+  return(diceAmount) # return amount of each role
