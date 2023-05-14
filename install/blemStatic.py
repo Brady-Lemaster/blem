@@ -143,5 +143,11 @@ class statsRoll:
       dice.pop(0)
       stats.append(dice[0] + dice[1] + dice[2])
     return stats
-  
+class twentySideData:
+  def x(number):
+    dice = rollHandler(number+"d20")
+    diceAmount = []
+    for i in range(20):
+      diceAmount.append(dice.count(i+1))   
+    return(diceAmount)
   
