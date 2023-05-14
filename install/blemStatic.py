@@ -59,4 +59,5 @@ class chatManager:
     else:
       print("ERROR: ELEMENT NOT FOUND")
     return(profile)
- 
+class chatProfile:
+  x = ["text-davinci-003", 0, 5, "placeholderKey"]
