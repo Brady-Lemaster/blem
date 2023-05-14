@@ -2,6 +2,7 @@ import os
 import requests
 import types
 import random 
+import openai
 class dieRoll:
   def x(dice):  inputList=[] 
     outputList=[] 
@@ -60,4 +61,10 @@ class chatManager:
       print("ERROR: ELEMENT NOT FOUND")
     return(profile)
 class chatProfile:
-  x = ["text-davinci-003", 0, 5, "placeholderKey"]
+  x = ["text-davinci-003", 0, 10, "placeholderKey"]
+class chatbot:
+  def x(prompt, limit, key):
+    openai.api_key = key
+    response = openai.Completion.create(model="text-davinci-003", prompt=prompt, temperature=0, max_tokens=limit)
+    responseTrimmed = response["choices"][0]["text"].strip()
+    return responseTrimmed
