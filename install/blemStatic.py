@@ -68,3 +68,9 @@ class chatbot:
     response = openai.Completion.create(model="text-davinci-003", prompt=prompt, temperature=0, max_tokens=limit)
     responseTrimmed = response["choices"][0]["text"].strip()
     return responseTrimmed
+class chatbot2:
+  def x(prompt, profile):
+    openai.api_key = profile[3]
+    response = openai.Completion.create(model=profile[0], prompt=prompt, temperature=profile[1], max_tokens=profile[2])
+    responseTrimmed = response["choices"][0]["text"].strip()
+    return responseTrimmed
