@@ -1,1 +1,2 @@
-x = ["256x256", 1, "placeholderKey"]
+def x():
+  return ["256x256", 1, "placeholderKey"]
