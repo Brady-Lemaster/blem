@@ -134,3 +134,14 @@ class rockPaperScissors:
       print("ERROR: " + user + " ELEMENT DOES NOT EXIST")
       print("LOSE")
       print("botChosenIndex")
+class statsRoll:
+  def x():
+    stats = []
+    for i in range(6):
+      dice = rollHandler('4d6')
+      dice.sort()
+      dice.pop(0)
+      stats.append(dice[0] + dice[1] + dice[2])
+    return stats
+  
+  
