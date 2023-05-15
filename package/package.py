@@ -26,4 +26,6 @@ imageProfile = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/
 imageManager = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/imageManager.py')
 chatProfile = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatProfile.py')
 chatManager = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatManager.py')
+chatbot3 = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatbot3.py')
+chatHistory = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatHistory.py')
 
