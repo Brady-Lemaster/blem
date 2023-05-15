@@ -15,6 +15,8 @@
 3. i dont have to add the stuff to the static file for this so its updated more often
 ## dynamic disadventages
 1. slow start (needs to fetch the functions)
+## advantage/disadvantage summary
+Dynamic is slower to start, however takes up almost no storage and is auto-updated. If you are a tinkerer or hobbyist this should be perfect for you, especially if you can't spare much storage. For a production-ready and fast-loading application (such as for if some reason some company is using this) static would be mch better.
 ## extra
 1. check the cmd directory for the functions (add blem. to the start and replace the .py with a .x)
 2. there is an extra function built into the package.py file used in the dynamic module code itself
