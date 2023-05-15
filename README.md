@@ -12,6 +12,7 @@
 ## dynamic advantages
 1. automatic updates
 2. extremely low size on disk (just from the import and the small file
+3. i dont have to add the stuff to the static file for this so its updated more often
 ## dynamic disadventages
 1. slow start (needs to fetch the functions)
 ## extra
