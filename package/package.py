@@ -28,4 +28,6 @@ chatProfile = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/b
 chatManager = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatManager.py')
 chatbot3 = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatbot3.py')
 chatHistory = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/chatHistory.py')
-
+fileToList = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/fileToList.py')
+listToFile = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/listToFile.py')
+dan = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dan.py')
