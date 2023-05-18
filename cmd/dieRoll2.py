@@ -11,4 +11,4 @@ def x(dice):
   rQG = total / len(outputList)
   rQG = rQG / int(dice.split('d')[1])
   rQG = math.floor(rQG * 50)
-  return rQG, outputList
+  return outputList, rQG
