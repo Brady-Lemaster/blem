@@ -32,3 +32,4 @@ fileToList = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/bl
 listToFile = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/listToFile.py')
 dan = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dan.py')
 dieRoll2 = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/dieRoll2.py')
+bitIntLimit = importModule.x('https://raw.githubusercontent.com/Brady-Lemaster/blem/main/cmd/bitIntLimit.py')
